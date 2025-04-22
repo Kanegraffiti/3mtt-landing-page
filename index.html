@@ -3,41 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kanva - Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Kanva - Your Design Solution</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h2 class="eyebrow">A design studio with a twist</h2>
-            <p class="subheadline">The way design's been done in the first place</p>
-            <h1 class="main-headline">It's "you'll never go back" better</h1>
-            <blockquote class="testimonial">
-                "Design's scary thing and these guys are the nutshell."
-            </blockquote>
-        </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/kanva-logo.png" alt="Kanva Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cta">
+                <a href="#signup" class="cta-button">Sign Up</a>
+            </div>
+        </nav>
     </header>
 
-    <main>
-        <section class="pricing">
-            <div class="pricing-content">
-                <h2>One subscription, endless possibilities</h2>
-                <div class="price">$4.995-</div>
-            </div>
-        </section>
-
-        <section class="faq">
-            <h2>Frequently asked questions</h2>
-            <p class="cta-text">See if Kanva is the right fit for you<br>(it totally is)</p>
-        </section>
-    </main>
-
-    <footer class="main-footer">
-        <div class="footer-content">
-            <div class="copyright">
-                <p>© 2024 Kanva. All rights reserved.</p>
-            </div>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to Kanva</h1>
+            <p>Your one-stop solution for all design needs</p>
+            <a href="#signup" class="cta-button">Get Started</a>
         </div>
+        <div class="hero-image">
+            <img src="images/hero-image.png" alt="Kanva Hero Image">
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="feature">
+            <img src="images/feature1.png" alt="Feature 1">
+            <h2>Feature 1</h2>
+            <p>Description of feature 1.</p>
+        </div>
+        <div class="feature">
+            <img src="images/feature2.png" alt="Feature 2">
+            <h2>Feature 2</h2>
+            <p>Description of feature 2.</p>
+        </div>
+        <div class="feature">
+            <img src="images/feature3.png" alt="Feature 3">
+            <h2>Feature 3</h2>
+            <p>Description of feature 3.</p>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-card">
+            <h3>Free</h3>
+            <p>$0/month</p>
+            <ul>
+                <li>Basic Features</li>
+                <li>10 Projects</li>
+                <li>Unlimited Users</li>
+            </ul>
+            <a href="#signup" class="cta-button">Sign Up</a>
+        </div>
+        <div class="pricing-card">
+            <h3>Premium</h3>
+            <p>$9.99/month</p>
+            <ul>
+                <li>All Free Features</li>
+                <li>50 Projects</li>
+                <li>Advanced Tools</li>
+            </ul>
+            <a href="#signup" class="cta-button">Sign Up</a>
+        </div>
+        <div class="pricing-card">
+            <h3>Enterprise</h3>
+            <p>$49.99/month</p>
+            <ul>
+                <li>All Premium Features</li>
+                <li>Unlimited Projects</li>
+                <li>Custom Branding</li>
+            </ul>
+            <a href="#signup" class="cta-button">Sign Up</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Kanva is a platform designed to help you create beautiful designs effortlessly. Our mission is to make design accessible to everyone, regardless of their skill level.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kanva. All rights reserved.</p>
     </footer>
 </body>
 </html>
