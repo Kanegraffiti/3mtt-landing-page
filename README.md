@@ -1,36 +1,40 @@
 # Responsive Landing Page
 
-## Overview
-Kanva is a responsive landing page designed for a fictional design solution platform. This project was developed as part of a Mini Project Assessment to create a visually appealing, mobile-friendly landing page using HTML and CSS. The page showcases a clean, accessible, and responsive design with a focus on user experience, adhering to the specified requirements.
+This is a mini project assessment based on HTML and CSS. It fulfills the requirements for creating a responsive landing page for a fictional product or service.
 
-## Purpose
-The goal of this project is to demonstrate proficiency in building a responsive landing page using HTML and CSS, with a focus on:
-- Semantic HTML structure for accessibility.
-- Responsive design using CSS Flexbox.
-- A visually appealing layout that adapts to different screen sizes.
+## ✅ Project Objectives
 
-## Project Requirements
-The project adheres to the following requirements from the Mini Project Assessment:
+- Create a visually appealing and responsive landing page
+- Use **semantic HTML** and **CSS Flexbox/Grid**
+- Ensure **mobile-friendliness** and **accessibility**
+- Avoid JavaScript 
 
-1. **Hero Section**:
-   - A headline introducing the product or service.
-   - A subheadline with a short description or value proposition.
-   - A call-to-action (CTA) button (e.g., "Get Started").
+## 🔧 Features
 
-2. **Features Section**:
-   - A three-column layout highlighting key features.
-   - Each column includes:
-     - A small icon or image representing the feature.
-     - A title for the feature.
-     - A short description explaining the feature.
-   - Responsive design that stacks into a single column on mobile devices.
-   - Uses CSS Flexbox for layout.
+### 1. Hero Section
+- Headline introducing the product/service
+- Subheadline with a value proposition
+- CTA button ("Sign Up Now")
 
-3. **Footer Section**:
-   - Contact details (e.g., email and social media links).
-   - Copyright information or a short message.
+### 2. Responsive Features Section
+- Three-column layout (icon, title, description)
+- Responsive using CSS Flexbox
+- Collapses into a single column on mobile screens
 
-4. **General Requirements**:
-   - Use only HTML and CSS (no JavaScript).
-   - Ensure responsive design using CSS Flexbox.
-   - Structure HTML for accessibility (e.g., semantic elements, descriptive `alt` text).
+### 3. Footer Section
+- Contact info (email, phone)
+- Copyright
+
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3 (Flexbox)
+- Unsplash (for free images)
+
+
+## ⚙️ How to Use
+
+1. Clone or download this repository
+2. Open `index.html` in your browser
+3. Make edits if you'd like to customize the content
